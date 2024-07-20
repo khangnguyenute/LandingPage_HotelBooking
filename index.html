@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel Booking</title>
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- MAIN -->
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="nav__bar">
+        <div class="nav__header">
+          <div class="logo">
+            <div>H</div>
+            <span>HOTEL<br />MIRANDA</span>
+          </div>
+        </div>
+        <ul class="nav__link" id="nav__link">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#room">Room</a></li>
+          <li><a href="#feature">Feature</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#news">News</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- BANNER -->
+    <section class="banner">
+      <div class="section">
+        <p class="section__subheader">ABOUT US</p>
+        <h1>
+          The Perfect<br />
+          Base For You
+        </h1>
+        <button class="btn">Take A Tour</button>
+      </div>
+    </section>
+
+    <!-- BOOKING -->
+    <section class="booking" id="home">
+      <div class="section">
+        <form>
+          <div class="input__group">
+            <label for="arrival">Arrival Date</label>
+            <input type="text" placeholder="Your Arrival Date" />
+          </div>
+          <div class="input__group">
+            <label for="arrival">Departure Date</label>
+            <input type="text" placeholder="Your Departure Date" />
+          </div>
+          <div class="input__group">
+            <label for="arrival">Guests</label>
+            <input type="text" placeholder="No Of Guests" />
+          </div>
+          <button class="btn">Check Availability</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="section">
+        <div class="about__grid">
+          <div class="about__card">
+            <i class="fa fa-user-friends"></i>
+            <h4>Strong Team</h4>
+            <p>
+              Unlocking Hospitality Excellence And Ensures Your Perfect Stay
+            </p>
+          </div>
+          <div class="about__image">
+            <img src="./assets/about-1.jpg" alt="about1" />
+          </div>
+          <div class="about__image">
+            <img src="./assets/about-2.jpg" alt="about2" />
+          </div>
+          <div class="about__card">
+            <i class="fa fa-calendar-check"></i>
+            <h4>Luxury Room</h4>
+            <p>Experience Unrivaled Luxury at Our Exquisite Luxury Rooms</p>
+          </div>
+        </div>
+        <div class="about__content">
+          <p class="section__subheader">ABOUT US</p>
+          <h2 class="section__header">Discover Our Underground</h2>
+          <p class="section__description">
+            Welcome to a hidden realm of extraordinary accommodations where
+            luxury, comfort, and adventure converge. Our underground hotels
+            offer an unparalleled escape from the ordinary, inviting you to
+            explore a subterranean world of wonders.
+          </p>
+          <button class="btn">Book Now</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ROOM -->
+    <section class="room">
+      <div class="section__subheader">ROOMS</div>
+      <div class="section__header">Hand Picked Rooms</div>
+      <div class="room__grid">
+        <div class="room__card">
+          <img src="./assets/room-1.jpg" alt="room1" />
+          <div class="room__detail">
+            <div>
+              <h4>Deluxe Suite</h4>
+              <p>Well-appointed rooms designed for guests who desire a more.</p>
+            </div>
+            <h3>$399<span>/night</span></h3>
+          </div>
+        </div>
+        <div class="room__card">
+          <img src="./assets/room-2.jpg" alt="room2" />
+          <div class="room__detail">
+            <div>
+              <h4>Family Suite</h4>
+              <p>Consist of multiple rooms and a common living area.</p>
+            </div>
+            <h3>$599<span>/night</span></h3>
+          </div>
+        </div>
+        <div class="room__card">
+          <img src="./assets/room-3.jpg" alt="room3" />
+          <div class="room__detail">
+            <div>
+              <h4>Luxury Penthouse</h4>
+              <p>
+                Top-tier accommodations usually on the highest floors of a
+                hotel.
+              </p>
+            </div>
+            <h3>$799<span>/night</span></h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTRO -->
+    <section class="intro">
+      <div class="section">
+        <div class="intro__content">
+          <p class="section__subheader">INTRO VIDEO</p>
+          <h2 class="section__header">Meet With Our Luxury Place</h2>
+          <p class="section__description">
+            Whether you're seeking a cozy and exclusive hideaway or an immersive
+            journey beneath the surface, Hotel Miranda promises to be an
+            unforgettable stay, where the depths of comfort and excitement await
+            your arrival.
+          </p>
+          <button class="btn">Book Now</button>
+        </div>
+        <div class="intro__video">
+          <video src="./assets/luxury.mp4" autoplay muted loop></video>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURE -->
+    <section class="feature section">
+      <p class="section__subheader">FACILITIES</p>
+      <h2 class="section__header">Core Features</h2>
+      <div class="feature__grid">
+        <div class="feature__card">
+          <i class="fa fa-thumbs-up"></i>
+          <h4>Have High Rating</h4>
+          <p>
+            We take pride in curating a selection of hotels that consistently
+            receive high ratings and positive reviews.
+          </p>
+        </div>
+        <div class="feature__card">
+          <i class="fa fa-clock"></i>
+          <h4>Quite Hours</h4>
+          <p>
+            We understand that peace and uninterrupted rest are essential for a
+            rejuvenating experience.
+          </p>
+        </div>
+        <div class="feature__card">
+          <i class="fa fa-map-marker-alt"></i>
+          <h4>Best Location</h4>
+          <p>
+            At our hotel booking website, we take pride in offering
+            accommodations in the most prime and sought-after locations.
+          </p>
+        </div>
+        <div class="feature__card">
+          <i class="fa fa-times-circle"></i>
+          <h4>Free Cancellation</h4>
+          <p>
+            We understand that travel plans can change unexpectedly, which is
+            why we offer the flexibility of free cancellation.
+          </p>
+        </div>
+        <div class="feature__card">
+          <i class="fa fa-credit-card"></i>
+          <h4>Payment Options</h4>
+          <p>
+            Our hotel booking website offers a range of convenient payment
+            options to suit your preferences.
+          </p>
+        </div>
+        <div class="feature__card">
+          <i class="fab fa-salesforce"></i>
+          <h4>Special Offers</h4>
+          <p>
+            Whether you're planning a romantic getaway, or a business trip, our
+            carefully curated special offers cater to all your needs.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="menu">
+      <div class="section">
+        <div class="menu__header">
+          <div>
+            <p class="section__subheader">MENU</p>
+            <h4 class="section__header">Our Food Menu</h4>
+          </div>
+          <div class="section__nav">
+            <i class="fa fa-arrow-left"></i>
+            <i class="fa fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="menu__grid">
+          <div class="menu__card">
+            <img src="./assets/menu-1.jpg" alt="menu1" />
+            <div class="menu__detail">
+              <h4>Fggs & Bacon</h4>
+              <p>
+                It is a culinary innovation that puts a unique spin on the
+                beloved breakfast combination.
+              </p>
+            </div>
+          </div>
+          <div class="menu__card">
+            <img src="./assets/menu-2.jpg" alt="menu2" />
+            <div class="menu__detail">
+              <h4>Tea or Coffee</h4>
+              <p>
+                A classic choice for your daily dose of comfort and calmness.
+              </p>
+            </div>
+          </div>
+          <div class="menu__card">
+            <img src="./assets/menu-3.jpg" alt="menu3" />
+            <div class="menu__detail">
+              <h4>Chia Oatmeal</h4>
+              <p>
+                Our Chia Oatmeal is a wholesome nutrient-packed breakfast
+                delight.
+              </p>
+            </div>
+          </div>
+          <div class="menu__card">
+            <img src="./assets/menu-4.jpg" alt="menu4" />
+            <div class="menu__detail">
+              <h4>Fruit Parfait</h4>
+              <p>
+                Our Fruit Parfait is a delightful culinary masterpiece of
+                freshness and flavor.
+              </p>
+            </div>
+          </div>
+          <div class="menu__card">
+            <img src="./assets/menu-5.jpg" alt="menu5" />
+            <div class="menu__detail">
+              <h4>Marmalade Selection</h4>
+              <p>
+                Our Marmalade Selection is a delectable medley of vibrant,
+                handcrafted citrus preserves.
+              </p>
+            </div>
+          </div>
+          <div class="menu__card">
+            <img src="./assets/menu-6.jpg" alt="menu6" />
+            <div class="menu__detail">
+              <h4>FCheese Plate</h4>
+              <p>
+                Our cheese plate is a masterpiece that celebrates rich and
+                diverse world of cheeses.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="menu__image">
+          <img src="./assets/menu-7.jpg" alt="menu7" />
+          <img src="./assets/menu-8.jpg" alt="menu8" />
+          <img src="./assets/menu-9.jpg" alt="menu9" />
+        </div>
+        <ul class="menu__banner">
+          <li>
+            <i class="fa fa-file-alt"></i>
+            <h4>84k</h4>
+            <p>Projects are Completed</p>
+          </li>
+          <li>
+            <i class="fa fa-user"></i>
+            <h4>10M</h4>
+            <p>Active Around World</p>
+          </li>
+          <li>
+            <i class="fa fa-braille"></i>
+            <h4>02k</h4>
+            <p>Categories Served</p>
+          </li>
+          <li>
+            <i class="fa fa-lightbulb"></i>
+            <h4>100M</h4>
+            <p>Ideas Raised Funds</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- BLOG -->
+    <section class="blog">
+      <div class="section">
+        <div class="blog__header">
+          <div>
+            <p class="section__subheader">BLOG</p>
+            <h4 class="section__header">News Feeds</h4>
+          </div>
+          <div class="section__nav">
+            <i class="fa fa-arrow-left"></i>
+            <i class="fa fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="blog__grid">
+          <div class="blog__card">
+            <img src="./assets/news-1.jpg" alt="news1" />
+            <div class="blog__title">
+              <p>25th March 2022</p>
+              <p>By Emily</p>
+            </div>
+            <h4>Exploring Local Culinary Gems: A Foodie's Guide.</h4>
+            <p>
+              Join Emily as she takes you on a gastronomic adventure through the
+              neighborhood surrounding our hotel.
+            </p>
+          </div>
+          <div class="blog__card">
+            <img src="./assets/news-1.jpg" alt="news1" />
+            <div class="blog__title">
+              <p>15th June 2022</p>
+              <p>By David</p>
+            </div>
+            <h4>Balancing Mind, Body, and Soul at Our Hotel.</h4>
+            <p>
+              Discover holistic spa treatments, fitness facilities, and
+              mindfulness practices that will leave you feeling refreshed.
+            </p>
+          </div>
+          <div class="blog__card">
+            <img src="./assets/news-1.jpg" alt="news1" />
+            <div class="blog__title">
+              <p>08th August 2022</p>
+              <p>By Sarah</p>
+            </div>
+            <h4>Exploring Outdoor Activities Near Our Hotel.</h4>
+            <p>
+              From hiking and biking trails to water sports and wildlife
+              encounters, she highlights ways to experience nature's wonders.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="section footer__container">
+        <div class="footer__col">
+          <div class="logo">
+            <div>H</div>
+            <span>HOTEL<br />MIRANDA</span>
+          </div>
+          <p class="section__description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+            laudantium unde. Doloremque eaque debitis laborum labore voluptates
+            iste molestiae consectetur.
+          </p>
+          <ul class="footer__social">
+            <li>
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Services</h4>
+          <ul class="footer__link">
+            <li><a href="#">Online Booking</a></li>
+            <li><a href="#">Room Customization</a></li>
+            <li><a href="#">Virtual Tours</a></li>
+            <li><a href="#">Special Offers</a></li>
+            <li><a href="#">Concierge Services</a></li>
+            <li><a href="#">Customer Support</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact Us</h4>
+          <ul class="footer__link">
+            <li>
+              <i class="fa fa-phone"></i>
+              <div>
+                <h5>Phone Number</h5>
+                <p>+91 9876543210</p>
+              </div>
+            </li>
+            <li>
+              <i class="fa fa-envelope"></i>
+              <div>
+                <h5>Email</h5>
+                <p>info@hotelmiranda.com</p>
+              </div>
+            </li>
+            <li>
+              <i class="fa fa-map-marker-alt"></i>
+              <div>
+                <h5>Location</h5>
+                <p>First St. NYC</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        <p>Copyright © 2023 Web Design Mastery. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <!-- MAIN -->
+    <script src="./index.js"></script>
+  </body>
+</html>
